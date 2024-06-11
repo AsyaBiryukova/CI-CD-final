@@ -1,7 +1,7 @@
 name: final-main-pipeline
 on: 
   push: 
-    branches: [ "first" ]
+    branches: [ "main" ]
 jobs:
   test:
     runs-on: ubuntu-latest
